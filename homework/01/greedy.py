@@ -58,7 +58,7 @@ schedule(3, 4)
 schedule(2, 2)
 schedule(2, 4)
 schedule(2, 0)
-for i in range(1, 7, 1): schedule(1, i)
+for i in range(1, 7): schedule(1, i)
 schedule(1, 0)
 
 for i in range(len(newSlots)):
