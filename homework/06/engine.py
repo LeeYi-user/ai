@@ -96,12 +96,12 @@ class Value:
 
         return out
 
-    def cross_entropy(self, batch_size, yb):
+    def cross_entropy(self, yb):
         log_probs = self.log()
         zb = yb*log_probs
         outb = zb.reduce_sum(axis=1)
         finb = -outb.reduce_sum()
-        loss = finb / batch_size
+        loss = finb / yb.data.shape[0]
         return loss
 
     def backward(self):
