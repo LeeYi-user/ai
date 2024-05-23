@@ -7,7 +7,7 @@ while True:
         continue
 
     client = Groq(
-        api_key="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",
+        api_key="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",
     )
 
     chat_completion = client.chat.completions.create(
