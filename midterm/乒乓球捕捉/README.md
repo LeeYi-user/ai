@@ -1,5 +1,7 @@
 # 乒乓球捕捉
 
+https://drive.google.com/drive/folders/1iMwlwkGMeSddexRhhMc1tdfD8mjeJW_u?usp=sharing
+
 ## 說明
 
 本程式為原創作品，主要使用 Roboflow 平台的機器學習套件，並搭配自製的 Python 演算法。

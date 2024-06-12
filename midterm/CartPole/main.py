@@ -1,4 +1,4 @@
-import gym
+import gymnasium as gym
 import time
 import random
 import numpy as np
@@ -91,7 +91,7 @@ if __name__ == "__main__":
     agent = DQNAgent(state_size, action_size)
 
     try:
-        agent.load("./save/cartpole-dqn.h5")
+        agent.load("./save/cartpole-dqn.weights.h5")
     except:
         pass
 
@@ -122,7 +122,7 @@ if __name__ == "__main__":
         print(f"episode = { episode }: timestep = { timestep }")
 
         if episode % 10 == 0:
-            agent.save("./save/cartpole-dqn.h5")
+            agent.save("./save/cartpole-dqn.weights.h5")
 
     agent.terminate = True
     trainer_thread.join()
