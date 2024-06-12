@@ -6,13 +6,9 @@
 
 ## 測試
 
-<video controls>
-    <source src="demos/媒體1.mp4" type="video/mp4">
-</video>
+https://github.com/LeeYi-user/ai/assets/68934115/22b576e7-4b81-4421-99b9-4a459c5a0c21
 
-<video controls>
-    <source src="demos/媒體2.mp4" type="video/mp4">
-</video>
+https://github.com/LeeYi-user/ai/assets/68934115/89683b99-e7be-47a5-936a-06537e547254
 
 ## 論文發表證明
 
